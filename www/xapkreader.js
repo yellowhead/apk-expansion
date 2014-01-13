@@ -5,8 +5,8 @@
  * Copyright (c) Quentin Aupetit 2013
  */
 	
-cordova.define("com.phonegap.plugins.xapkreader.XAPKReader", function(require, exports, module) {
-	console.log("Test");
+
+
 	var exec = require("cordova/exec");
 	
 	var XAPKReader = function() {};
@@ -31,13 +31,3 @@ cordova.define("com.phonegap.plugins.xapkreader.XAPKReader", function(require, e
 
 	var xapkreader = new XAPKReader();
 	module.exports = xapkreader;
-
-});
-
-//-------------------------------------------------------------------
-// if(!window.plugins) {
-// 	window.plugins = {};
-// }
-// if (!window.plugins.xapkreader) {
-// 	window.plugins.xapkreader = cordova.require("cordova/plugins/xapkreader");
-// }
